@@ -27,19 +27,28 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="txM-Ra-zYl" appends="YES" id="fx3-y4-FEo"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="ZTC-4b-1Ex"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="txM-Ra-zYl">
+                    <connections>
+                        <segue destination="b59-bN-dFf" kind="show" id="Ou4-pM-B6g"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="78.348214285714278"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="78.348214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bxq-CC-if3">
             <objects>
                 <viewController storyboardIdentifier="2" id="b59-bN-dFf" customClass="ViewController" customModule="Lesson_9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MBx-X9-Z1k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKL-fR-MXp">
@@ -62,19 +71,33 @@
                         <viewLayoutGuide key="safeArea" id="CqR-B6-NqD"/>
                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                         <color key="tintColor" systemColor="systemBlueColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jZ1-fe-8q6" appends="YES" id="ztF-rB-DlI"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="j1w-yB-Xjc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfg-Yi-9BU" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="jZ1-fe-8q6">
+                    <connections>
+                        <action selector="backButtonPressed" destination="b59-bN-dFf" id="TCN-kz-75q"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="ODL-iI-XQT">
+                    <connections>
+                        <segue destination="CDF-tr-sRR" kind="show" id="jcB-ct-9T2"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1813.0434782608697" y="77.678571428571431"/>
+            <point key="canvasLocation" x="2723.1884057971015" y="77.678571428571431"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="9mA-Ex-sYX">
             <objects>
                 <viewController storyboardIdentifier="3" id="CDF-tr-sRR" customClass="ThirdViewController" customModule="Lesson_9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mFg-NF-WXG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0Z-o0-40Q">
@@ -104,19 +127,29 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PVY-nC-fwQ"/>
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="kxG-H2-Wy5" appends="YES" id="skO-hl-60q"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="3ix-0Z-DRr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPr-ye-ydJ" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="kxG-H2-Wy5">
+                    <connections>
+                        <action selector="backButtonPressed" destination="CDF-tr-sRR" id="ggv-q4-wSg"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="NQE-td-xqA"/>
             </objects>
-            <point key="canvasLocation" x="2568.1159420289855" y="77.678571428571431"/>
+            <point key="canvasLocation" x="3476.811594202899" y="77.678571428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jUQ-w3-OV8">
             <objects>
                 <viewController storyboardIdentifier="4" id="bS5-ff-FDd" customClass="ViewController" customModule="Lesson_9" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oAk-S7-Jec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HeX-hG-m73">
@@ -146,14 +179,45 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2Bw-lp-fZw"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Hd7-Xv-kkg" appends="YES" id="OJf-sY-5Ui"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="Nqf-eK-jvC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="km7-F9-WdL" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="Hd7-Xv-kkg">
+                    <connections>
+                        <action selector="backButtonPressed" destination="bS5-ff-FDd" id="ok8-PC-men"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="91O-K2-LEv"/>
             </objects>
-            <point key="canvasLocation" x="3331.884057971015" y="76.339285714285708"/>
+            <point key="canvasLocation" x="4242.0289855072469" y="76.339285714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eUs-56-mFy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Db8-WR-6ln" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uCl-Lf-yKL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Oz8-No-chM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="85g-dJ-umt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="78.348214285714278"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jcB-ct-9T2"/>
+        <segue reference="Ou4-pM-B6g"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

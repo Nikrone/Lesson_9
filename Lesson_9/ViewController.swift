@@ -8,10 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+//    создание кодом GesterRecognizer
+//    @IBOutlet weak var redView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+//    создание кодом GesterRecognizer
+        
+//        let tapGesterRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapGesterRecognizerPressed))
+//        redView.addGestureRecognizer(tapGesterRecognizer)
+        
+//        изменение параметров - GesterRecognizer
+//      tapGesterRecognizer.numberOfTouchesRequired = 2 (2 пальцак)
+//        tapGesterRecognizer.numberOfTapsRequired = 2
+        
     }
 
 //    переход на предыдущий экран
@@ -31,9 +43,12 @@ class ViewController: UIViewController {
 //        далее указывает этот экран с "!" знаком
         navigationController?.popToViewController(secondViewController!, animated: true)
     }
-    
 //    если нет навигационной шапки(navigation header), то жесты не работают!
+    
+    @IBAction func tapGesterRecognizerPressed() {
+        print(12345)
+    }
+
 
     
 }
-

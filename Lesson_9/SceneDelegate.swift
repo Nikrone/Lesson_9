@@ -22,6 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                 let rootController = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(identifier: "1")
         //        создание navigation Contorller кодом
                 let navigationController = UINavigationController(rootViewController: rootController)
+//        убираем навигационную шапку
+        navigationController.isNavigationBarHidden = true
 //        меняем экран который покажется первым(стартовый экран)
         let window = UIWindow(windowScene: windowScene)
                window.rootViewController = navigationController
