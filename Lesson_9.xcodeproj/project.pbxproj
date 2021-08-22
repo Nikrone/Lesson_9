@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7179C09C26D02FED001867A9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179C09B26D02FED001867A9 /* ThirdViewController.swift */; };
 		71E4166E26CDA89E0021E3FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E4166D26CDA89E0021E3FC /* AppDelegate.swift */; };
 		71E4167026CDA89E0021E3FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E4166F26CDA89E0021E3FC /* SceneDelegate.swift */; };
 		71E4167226CDA89E0021E3FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E4167126CDA89E0021E3FC /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7179C09B26D02FED001867A9 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		71E4166A26CDA89E0021E3FC /* Lesson_9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E4166D26CDA89E0021E3FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71E4166F26CDA89E0021E3FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				71E4166D26CDA89E0021E3FC /* AppDelegate.swift */,
 				71E4166F26CDA89E0021E3FC /* SceneDelegate.swift */,
 				71E4167126CDA89E0021E3FC /* ViewController.swift */,
+				7179C09B26D02FED001867A9 /* ThirdViewController.swift */,
 				71E4167326CDA89E0021E3FC /* Main.storyboard */,
 				71E4167626CDA89F0021E3FC /* Assets.xcassets */,
 				71E4167826CDA89F0021E3FC /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				71E4167226CDA89E0021E3FC /* ViewController.swift in Sources */,
 				71E4166E26CDA89E0021E3FC /* AppDelegate.swift in Sources */,
+				7179C09C26D02FED001867A9 /* ThirdViewController.swift in Sources */,
 				71E4167026CDA89E0021E3FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -31,6 +31,9 @@ class ViewController: UIViewController {
 //        далее указывает этот экран с "!" знаком
         navigationController?.popToViewController(secondViewController!, animated: true)
     }
+    
+//    если нет навигационной шапки(navigation header), то жесты не работают!
 
+    
 }
 
